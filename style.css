@@ -29,7 +29,11 @@ a:hover {
 }
 .bar2 {
     background: blue;
+    transform: rotate(180deg);
     background: linear-gradient(135deg, rgba(255, 0, 0, 0.05), rgba(255, 0, 0, 0.45)), url('https://images2.alphacoders.com/468/4682.jpg') no-repeat center scroll;    
+}
+.bar2 .content {
+    transform: rotate(180deg);
 }
 .bar3 {
     background: grey;
