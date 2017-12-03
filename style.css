@@ -30,7 +30,7 @@ a:hover {
 .bar2 {
     background: blue;
     transform: rotate(180deg);
-    background: linear-gradient(135deg, rgba(255, 0, 0, 0.05), rgba(255, 0, 0, 0.45)), url('./background2.jpg') no-repeat center scroll;    
+    background: linear-gradient(-25deg, rgba(255, 0, 0, 0.05), rgba(255, 0, 0, 0.45)), url('./background2.jpg') no-repeat center scroll;    
 }
 .bar2 .content {
     transform: rotate(180deg);
