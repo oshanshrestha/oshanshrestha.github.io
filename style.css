@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    color: #eee;
+}
+a {
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+.bar {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.bar1 {
+    background: skyblue;/*
+    background: linear-gradient(135deg, rgba(255, 0, 0, 0.05), rgba(255, 0, 0, 0.45)), url('https://images3.alphacoders.com/853/thumb-1920-85305.jpg') no-repeat center scroll;*/
+    background: linear-gradient(135deg, rgba(255, 0, 0, 0.05), rgba(255, 0, 0, 0.45)), url('https://images5.alphacoders.com/587/587323.jpg') no-repeat no-repeat center right scroll;
+}
+.bar2 {
+    background: blue;
+    background: linear-gradient(135deg, rgba(255, 0, 0, 0.05), rgba(255, 0, 0, 0.45)), url('https://images2.alphacoders.com/468/4682.jpg') no-repeat center scroll;    
+}
+.bar3 {
+    background: grey;
+    background: linear-gradient(135deg, rgba(255, 0, 0, 0.05), rgba(255, 0, 0, 0.45)), url('https://images4.alphacoders.com/467/4674.jpg') no-repeat center scroll;        
+}
+.content {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.text {
+    display: table-cell;
+    vertical-align: middle;
+}
+h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+p {
+    font-family: 'Slabo 27px', serif;
+    font-size: 0px;
+    transition: 0.25s ease;
+}
+a:hover p {
+    height: auto;
+    font-size: 14px;    
+}
