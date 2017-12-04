@@ -23,26 +23,33 @@ a:hover {
     text-align: center;
 }
 .bar1 {
-    background: skyblue;/*
-    background: linear-gradient(135deg, rgba(255, 0, 0, 0.05), rgba(255, 0, 0, 0.45)), url('https://images3.alphacoders.com/853/thumb-1920-85305.jpg') no-repeat center scroll;*/
+    position: relative;
     background: linear-gradient(135deg, rgba(255, 0, 0, 0.05), rgba(255, 0, 0, 0.45)), url('https://images5.alphacoders.com/587/587323.jpg') no-repeat no-repeat center right scroll;
 }
 .bar2 {
-    background: blue;
+    position: relative;
     transform: rotate(180deg);
     background: linear-gradient(-25deg, rgba(255, 0, 0, 0.05), rgba(255, 0, 0, 0.45)), url('./background2.jpg') no-repeat center scroll;    
 }
-.bar2 .content {
-    transform: rotate(180deg);
-}
 .bar3 {
-    background: grey;
+    position: relative;
     background: linear-gradient(135deg, rgba(255, 0, 0, 0.05), rgba(255, 0, 0, 0.45)), url('https://images4.alphacoders.com/467/4674.jpg') no-repeat center scroll;        
 }
 .content {
     height: 100%;
     width: 100%;
     display: table;
+}
+.class {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: calc(100% - 40px);
+    width: calc(100% - 40px);
+    border: 1px solid #333;
+}
+.bar2 .content {
+    transform: rotate(180deg);
 }
 .text {
     display: table-cell;
@@ -59,4 +66,22 @@ p {
 a:hover p {
     height: auto;
     font-size: 14px;    
+}
+.class {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    background: rgba(0, 0, 0, 0.0);
+    transition: 0.5s ease;
+}
+.bar1:hover .class, .bar2:hover .class, .bar3:hover .class {
+    background: rgba(25, 25, 25, 0.075);
+    top: 20px;
+    left: 20px;
+    height: calc(100% - 40px);
+    width: calc(100% - 40px);
+    border: 1px solid #eee;
 }
